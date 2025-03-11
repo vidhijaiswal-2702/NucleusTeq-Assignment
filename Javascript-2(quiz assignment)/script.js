@@ -18,7 +18,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let timer;
 let timeLeft = 15;
-let totalQuestions = 20; 
+let totalQuestions = 10; 
 
 // Shuffle an array so that options of particular question does not come in same order
 function shuffle(array) {
@@ -33,6 +33,16 @@ function shuffle(array) {
 async function fetchQuestions() {
   const category = categorySelect.value;
   const difficulty = difficultySelect.value;
+
+   // Set number of questions based on difficulty
+   if (difficulty === "easy") {
+    totalQuestions = 10;
+  } else if (difficulty === "medium") {
+    totalQuestions = 15;
+  } else if (difficulty === "hard") {
+    totalQuestions = 20;
+  }
+
 
  
 
