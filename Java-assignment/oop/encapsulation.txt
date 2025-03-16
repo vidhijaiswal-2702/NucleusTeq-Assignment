@@ -1,0 +1,22 @@
+Encapsulation is one of the fundamental principles of Object-Oriented 
+Programming (OOP). 
+It refers to the bundling of data (variables) and methods (functions) that operate on that data into a single unit (class) while restricting 
+direct access to some of the object's details. 
+This ensures data security,modularity, and better control over the data. 
+
+In Java, Encapsulation is implemented using: 
+1. Private variables – to restrict direct access. 
+2. Public getter and setter methods – to control access to the data. 
+3. A class that encapsulates the data – all related variables and methods are 
+inside a single class. 
+
+Encapsulation Benefits:   
+• Security: Prevents direct modification of balance. 
+• Data Hiding: The variables accountHolder and balance are private so they 
+cannot be accessed directly from outside the class. 
+• Controlled Access: The methods getBalance(), deposit(), and withdraw() 
+are public and allow access to modify and retrieve account balance safely. 
+• Control: Only valid operations (positive deposit, sufficient balance for 
+withdrawal) are allowed. 
+• Code Organization: The BankAccount class keeps all related functions 
+together.

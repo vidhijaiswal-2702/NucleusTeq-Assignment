@@ -1,0 +1,29 @@
+Q1. Explain the difference between primitive and reference data types with 
+examples.
+Ans) Primitive data types:
+  Primitive data types are basic building blocks of data in Java. They are 
+predefined by the language and store simple values directly in memory. 
+Characteristics: 
+• Stored in stack memory. 
+• Fast and memory-efficient. 
+• Holds only one value at a time. 
+• Does not support methods. 
+Primitive Datatypes: boolean,int,float,double,char.
+
+Reference Datatypes:
+ Reference data types are used to store objects. They hold a reference (memory 
+address) to the actual data rather than the value itself. 
+Characteristics: 
+• Stored in heap memory. 
+• Slower than primitive types. 
+• Holds multiple values (as objects). 
+• Can have methods and behaviors. 
+
+Examples of Reference Data Types: 
+• Objects (Instances of Classes) 
+• Arrays 
+• Strings 
+• User-defined types (like interfaces and enums) 
+
+
+
